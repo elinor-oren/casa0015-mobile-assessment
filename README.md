@@ -1,4 +1,4 @@
-# REPLACE WITH YOUR APP NAME
+# swell - a quantified self Bipolar App 
 
 This is the Final assessment template for CASA0014 - Please use this template and edit the relevant sections to personalise.
 This section has a short introduction to what the application is
@@ -21,3 +21,10 @@ Include a section that gives intructions on how to install the app or run it in 
 ##  Contact Details
 
 Having Contact Details is also good as it shows people how to get in contact with you if they'd like to contribute to the app. 
+
+##  Potential Plugins
+
+| Package  | Function |
+| ------------- | ------------- |
+| [flutter sinusoidals ](https://pub.dev/packages/flutter_sinusoidals) | make sine waves  |
+| [FL chart](https://pub.dev/packages/fl_chart)https://pub.dev/packages/fl_chart  | make line charts  |
