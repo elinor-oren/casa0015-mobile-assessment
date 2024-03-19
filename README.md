@@ -1,9 +1,14 @@
 # swell - a quantified self Bipolar App 
 
-This is the Final assessment template for CASA0014 - Please use this template and edit the relevant sections to personalise.
-This section has a short introduction to what the application is
+Swell is a mood tracker app designed to help individuals with bipolar disorder monitor their mood fluctuations, triggers, and overall mental health. The app provides a user-friendly interface to log daily moods, medication adherence, sleep patterns, and other factors that can influence their condition. Swell aims to empower users to better understand their disorder, recognize patterns in their behavior, and facilitate more informed discussions with healthcare providers.
 
-## Use this README File 
+## Background 
+<img width="525" alt="image" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/3095fcb3-406c-4bcb-95f0-cc9170f6e0a1">
+
+## Users 
+<img width="525" alt="image" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/d11abc13-525d-4ac8-b8df-e211c7a7c8dd">
+
+## App Details 
 
 Use this section to show us what your Mobile App is about.   Include a Screenshot to the App, link to the various frameworks you've used. Include your presentation video here that shows off your Mobile App.   Emojis are also fun to include 📱 😄
 
