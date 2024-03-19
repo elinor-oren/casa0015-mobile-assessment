@@ -10,7 +10,11 @@ Swell is a mood tracker app designed to help individuals with bipolar disorder m
 
 ## App Details 
 
+<img width="847" alt="image" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/33ac2dd1-d01e-4f74-8708-9c705fa1cd2a">
+
 Use this section to show us what your Mobile App is about.   Include a Screenshot to the App, link to the various frameworks you've used. Include your presentation video here that shows off your Mobile App.   Emojis are also fun to include 📱 😄
+
+
 
 Look at some other Flutter Apps online and see how they use there README File.  Good examples are:
 
