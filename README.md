@@ -65,6 +65,9 @@ Simulate code - You must use your phone to a phone plugged to the main machine b
  
 <img width="655" alt="database" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/393e9e64-3b0a-40fa-825a-35c7e6722e8b">
 
+##  Credits 
+- I used ChatGPT to reformat, comment, and structure my code. I generated my logo with the DALL-E model.
+- I drew heavily on this medium [walkthrough](https://betterprogramming.pub/measuring-your-heart-rate-using-your-phones-camera-and-flutter-f444d3c4272a) to process the image for heart rate collection.   
 
 ##  Contact Details
 
