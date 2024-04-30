@@ -43,6 +43,21 @@ Install Flutter and Dart
 Simulate code - You must use your phone to a phone plugged to the main machine because of the phone and camera 
 
  ### Plugins 
+  - heart_bpm: ^2.0.0+0
+-   camera: ^0.10.5+9
+  - paged_vertical_calendar: ^1.1.7
+-  flutter_native_splash: ^2.4.0
+ - fl_chart: ^0.67.0
+  - animated_splash_screen: ^1.3.0
+  - health: ^10.2.0
+  - google_nav_bar: ^5.0.6
+ - progressive_time_picker: ^1.0.1
+  -intl: ^0.18.1
+  -syncfusion_flutter_charts: ^25.1.41+2
+  -firebase_core: ^2.30.1
+  -cloud_firestore: ^4.17.2
+  -shared_preferences: ^2.2.3
+
 
  ### Database 
  
