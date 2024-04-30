@@ -53,4 +53,5 @@ Simulate code - You must use your phone to a phone plugged to the main machine b
 
 ##  Contact Details
 
-Having Contact Details is also good as it shows people how to get in contact with you if they'd like to contribute to the app. 
+Please feel free to reach out if you'd like to learn more, thanks.
+- [LinkedIn](https://www.linkedin.com/in/elinor-oren/)
