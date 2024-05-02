@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "43165510387",
+    "project_id": "test2-swell-app",
+    "storage_bucket": "test2-swell-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43165510387:android:059d34f16f237685962586",
+        "android_client_info": {
+          "package_name": "com.example.test2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjGVrT1gOktE7EQpo1aIENpc3llSQO6pA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

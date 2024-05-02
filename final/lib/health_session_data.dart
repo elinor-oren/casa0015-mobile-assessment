@@ -8,7 +8,6 @@ class HealthSessionData {
   num? bpmValue;
   // Named parameters can't start with an underscore
   //so I'm not using the variable name (_bpmValue)
-  //idk what type bpm is
 
   HealthSessionData._();
 

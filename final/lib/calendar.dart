@@ -5,6 +5,27 @@ import 'package:intl/intl.dart';
 import 'package:paged_vertical_calendar/paged_vertical_calendar.dart';
 import 'package:test2/ppg.dart';
 import 'package:test2/moodLogging.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+
+class PreferencesService {
+  Future<void> saveMoodColor(DateTime date, Color color) async {
+    final prefs = await SharedPreferences.getInstance();
+    // Store color as an integer
+    await prefs.setInt(date.toIso8601String(), color.value);
+  }
+
+  Future<Color?> loadMoodColor(DateTime date) async {
+    final prefs = await SharedPreferences.getInstance();
+    // Load the color value as an integer
+    int? colorValue = prefs.getInt(date.toIso8601String());
+    if (colorValue != null) {
+      return Color(colorValue);
+    }
+    return null;
+  }
+}
+
 
 class CalendarScreen extends StatefulWidget {
   CalendarScreen({Key? key}) : super(key: key);
@@ -17,6 +38,32 @@ class _CalendarScreenState extends State<CalendarScreen> {
   DateTime? selectedDate; // Tracks the selected date
   Map<DateTime, Color> moodColors = {}; // Stores the mood color for each date
   int selectedIndex = 1; // Sets "Calendar" tab as default
+    final preferencesService = PreferencesService();
+
+@override
+  void initState() {
+    super.initState();
+    _loadColors();
+  }
+Future<void> _loadColors() async {
+  DateTime now = DateTime.now();
+  DateTime startOfMonth = DateTime(now.year, now.month, 1);
+  int lastDay = DateUtils.getDaysInMonth(now.year, now.month);
+  DateTime endOfMonth = DateTime(now.year, now.month, lastDay);
+
+  for (DateTime day = startOfMonth;
+      day.isBefore(endOfMonth.add(Duration(days: 1)));
+      day = day.add(Duration(days: 1))) {
+    Color? color = await preferencesService.loadMoodColor(day);
+    if (color != null) {
+      setState(() {
+        moodColors[day] = color;
+      });
+    }
+  }
+}
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -79,6 +126,8 @@ class _CalendarScreenState extends State<CalendarScreen> {
                         moodColors[selectedDate!] =
                             color; // Updates the color map
                       });
+                              await preferencesService.saveMoodColor(selectedDate!, color);
+
                       // After setting data in the calendar screen
                       HealthSessionData().printData();
 
