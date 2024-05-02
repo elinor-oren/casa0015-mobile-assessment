@@ -50,6 +50,7 @@ jobs:
           channel: 'main'
 
       - name: Get Flutter dependencies      # Get the Libraries and Dependencies
+        working-directory: ./final
         run: flutter pub get
 
       - name: Build APK Release             # Build a release
