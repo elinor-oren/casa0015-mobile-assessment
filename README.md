@@ -7,10 +7,15 @@ Swell is a mood tracker app designed to help individuals with bipolar disorder m
 
 visit our [microsite](https://swell-microsite.my.canva.site/).
 
-## Background 
+## About Swell
+Swell is an ecological momentary assessment, or mood tracker, app designed to empower individuals with bipolar disorder to understand their mood shifts. It allows users to monitor mood fluctuations, medication adherence, sleep patterns, and heart rate variability (HRV).
 <img width="525" alt="image" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/3095fcb3-406c-4bcb-95f0-cc9170f6e0a1">
 
-## App Details & Demo
+## Key Features
+- **Mood Tracking:** Log your daily moods to establish your baseline and aid in identifying triggers.
+- **Sleep Analysis:** Track sleep patterns and their impact on your mental health.
+- **HRV Monitoring:** Utilize HRV data to gain insights into physiological biomarkers, allowing you to understand when you may be drifting from euthymic states.
+  
 ### Pages 
 <img width="655" alt="calendar" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/b59a30a8-94ac-4d63-af21-d9025b0e0921">
 <img width="655" alt="mood" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/0dbf9436-8c01-4767-9efc-67e68c54a6b0">
