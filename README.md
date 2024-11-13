@@ -1,15 +1,15 @@
-![image](https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/0cf3d879-13ab-45d7-a9ae-d2e417edc980)
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/a5a4a73a-2ab5-411f-bd86-74a4e5667f22">
 
 
-# swell - a quantified self Bipolar App 
+# A quantified self Bipolar App 
 
 Swell is a mood tracker app designed to help individuals with bipolar disorder monitor their mood fluctuations, triggers, and overall mental health. The app provides a user-friendly interface to log daily moods, medication adherence, sleep patterns, and other factors that can influence their condition. Swell aims to empower users to better understand their disorder, recognize patterns in their behavior, and facilitate more informed discussions with healthcare providers.
 
 visit our [microsite](https://swell-microsite.my.canva.site/).
 
 ## About Swell
-Swell is an ecological momentary assessment, or mood tracker, app designed to empower individuals with bipolar disorder to understand their mood shifts. It allows users to monitor mood fluctuations, medication adherence, sleep patterns, and heart rate variability (HRV).
-<img width="525" alt="image" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/3095fcb3-406c-4bcb-95f0-cc9170f6e0a1">
+Ecological Momentary Assessment (EMA) is a methodology allowing participants to report on phenomena close in time to when symptoms are experienced and to document several events or time periods, often in 1 day. Swell is a mood tracking EMA app designed to empower individuals with bipolar disorder to understand their mood shifts. It brings together smartphone-based physiological measurements and self-reported mood data, allowing users to monitor mood fluctuations, sleep patterns, and heart rate variability (HRV).
+
 
 ## Key Features
 - **Mood Tracking:** Log your daily moods to establish your baseline and aid in identifying triggers.
@@ -17,13 +17,15 @@ Swell is an ecological momentary assessment, or mood tracker, app designed to em
 - **HRV Monitoring:** Utilize HRV data to gain insights into physiological biomarkers, allowing you to understand when you may be drifting from euthymic states.
   
 ### Pages 
+The pages are interactive to enhance usability.
+
 <img width="655" alt="calendar" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/b59a30a8-94ac-4d63-af21-d9025b0e0921">
 <img width="655" alt="mood" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/0dbf9436-8c01-4767-9efc-67e68c54a6b0">
 <img width="655" alt="sleep" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/f0adba54-130d-4b19-a85e-6e49530c2f0f">
 <img width="655" alt="pulse" src="https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/8d3fc541-f3db-40d3-b4db-1e8a425e2be7">
 
-###  Demo video
-Overview of the main pages and features. 
+###  Demo Video
+Check out the main pages and features in action below: 
 
 https://github.com/elinor-oren/casa0015-mobile-assessment/assets/127933946/71827a5f-f1a2-4c37-b045-a046fb00d182
 
